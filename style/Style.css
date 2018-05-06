@@ -1,0 +1,333 @@
+@charset "utf-8";
+/* CSS Document */
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+body {
+	background-color: #f3f3f3;
+	color: #464646;
+	font-family: 'Raleway', serif;
+
+}
+
+div.container {
+    width: 960px;    
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+
+header {
+    padding: 10px;
+	padding-bottom: 0px;
+
+    clear: left;
+}
+
+footer {
+	
+	background-color: #464646;
+	padding: 15px;
+    color: white;
+    clear: left;
+	text-align: center;
+
+	margin-bottom: 20px;
+}
+
+div.logo {
+	height: 90px;
+	width: 120px;
+}
+
+nav {
+
+    width: 960px;
+	
+	background-color: blue;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+	background-color: #464646;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 20px;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    background-color:#313131;	
+}
+
+
+article {
+    padding: 10px;
+	background-color: white;
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+}
+h1 {
+	padding-left: 20px;
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.search {
+	height: 40px;
+	width: 100%;
+	padding-left: 20px;	
+}
+#search {
+
+	
+	height: 40px;
+	width: 200px;
+	border: 1px solid #464646;
+	text-align: center;
+	font-size: 20px;
+}
+
+.items {
+	height: 250px;
+	width: 312px;
+	float: left;
+	overflow: auto;
+		
+}
+
+.item {
+	border: 1px solid #464646;
+	height: 210px;
+	width: 272px;
+	margin: 20px;
+}
+
+.itemimage {
+	height: 137px;	
+	width: 272px;
+}
+
+.itemdesc {
+	font-size: 18px;
+	text-align: center;
+	height: 22px;
+
+}
+
+.addto {
+	height: 50px;
+	width: 272px;
+	background-color:#464646;
+	text-align: center;
+	padding-top: 15px;
+	color: white;
+}
+
+.addto a {
+    color: white;
+ 	text-decoration:none;  
+
+}
+
+.addto:hover {
+	background-color:#313131;
+}
+
+.edit {
+	height: 50px;
+	width: 100%;
+	background-color:#464646;
+	text-align: center;
+	color: white;
+	float: left;
+}
+
+.edit a {
+    color: white;
+ 	text-decoration:none;  
+
+}
+
+.edit:hover {
+	background-color:#313131;
+}
+
+{
+	margin: 20px;
+}
+
+input {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #464646;
+}
+
+input {
+	padding: 12px 20px;
+	margin: 8px 0;
+}
+
+#logoutInput {
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: none;
+}
+
+
+input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+	margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #464646;
+    background-color: #464646;
+    border: none;
+	color: white;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #313131;
+}
+
+
+
+.cmsbutton input[type=submit] {
+    height: 50px;
+	width: 100%;
+    display: inline-block;
+    border: 1px solid #464646;
+    background-color: #464646;
+    border: none;
+	color: white;
+    cursor: pointer;
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+.cmsbutton input[type=submit]:hover {
+    background-color: #313131;
+}
+
+
+
+
+button{
+	width: 100%;
+    padding: 12px 20px;
+	margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #464646;
+    background-color: #464646;
+    border: none;
+	color: white;
+    cursor: pointer;
+}
+
+button:hover {
+	background-color: #313131;
+}
+
+.productsinfo {
+	height: 75px;
+	width: 449px;
+
+	float: left;	
+	text-align: center;
+	padding: 30px 12px;
+	font-size: 15px;
+	border-bottom: 1px solid #464646;
+}
+
+.productslabel {
+	height: 30px;
+	width: 449px;
+	background-color: #464646;
+	float: left;
+	text-align: center;
+	color: white;
+	padding: 6px;
+	font-size: 17px;
+}
+
+.productslabels {
+	margin-bottom: 10px;
+	overflow: auto;
+}
+
+#shoppingcart input {
+	width: 50px;;
+
+	text-align: center;
+
+    display: inline-block;
+    border: 1px solid #464646;
+}
+
+#shoppingcart {
+	margin: 20px;
+}
+
+#shoppingcart input[type=submit] {
+	width: 225px;
+
+}
+
+#total {
+	width: 225px;
+	float: right;
+	font-size: 20px;
+	padding-top: 30px;
+}
+
+
+.orderlabel {
+	height: 30px;
+	width: 187px;
+	background-color: #464646;
+	float: left;
+	text-align: center;
+	color: white;
+	padding: 6px;
+	font-size: 17px;
+}
+
+.orderdetail {
+	width: 187px;
+	float: left;
+	text-align: center;
+	padding: 6px;
+	font-size: 17px;
+	padding: 30px 12px;
+	font-size: 15px;
+}
+
+#order {
+	border-bottom: 1px solid #464646;
+	overflow: auto;
+	width: 100%;
+	
+}
